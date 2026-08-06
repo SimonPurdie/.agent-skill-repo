@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "selectedEntries": [
+    "pack:matt-engineering",
+    "pack:matt-productivity",
+    "skill:hbox-integration"
+  ],
+  "resolvedSkills": [
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\ask-matt",
+      "destinationName": "ask-matt"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\code-review",
+      "destinationName": "code-review"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\codebase-design",
+      "destinationName": "codebase-design"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\diagnosing-bugs",
+      "destinationName": "diagnosing-bugs"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\domain-modeling",
+      "destinationName": "domain-modeling"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\grill-me",
+      "destinationName": "grill-me"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\grill-with-docs",
+      "destinationName": "grill-with-docs"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\grilling",
+      "destinationName": "grilling"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\handoff",
+      "destinationName": "handoff"
+    },
+    {
+      "entryId": "skill:hbox-integration",
+      "sourceRelativePath": "hbox-integration",
+      "destinationName": "hbox-integration"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\implement",
+      "destinationName": "implement"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\improve-codebase-architecture",
+      "destinationName": "improve-codebase-architecture"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\prototype",
+      "destinationName": "prototype"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\research",
+      "destinationName": "research"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\resolving-merge-conflicts",
+      "destinationName": "resolving-merge-conflicts"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\setup-matt-pocock-skills",
+      "destinationName": "setup-matt-pocock-skills"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\tdd",
+      "destinationName": "tdd"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\teach",
+      "destinationName": "teach"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\to-questionnaire",
+      "destinationName": "to-questionnaire"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\to-spec",
+      "destinationName": "to-spec"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\to-tickets",
+      "destinationName": "to-tickets"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\triage",
+      "destinationName": "triage"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\wait-what",
+      "destinationName": "wait-what"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\wayfinder",
+      "destinationName": "wayfinder"
+    },
+    {
+      "entryId": "pack:matt-engineering",
+      "sourceRelativePath": "matt-engineering\\wizard",
+      "destinationName": "wizard"
+    },
+    {
+      "entryId": "pack:matt-productivity",
+      "sourceRelativePath": "matt-productivity\\writing-for-agents",
+      "destinationName": "writing-for-agents"
+    }
+  ],
+  "syncId": "5060b593-24f3-4d25-a423-32d6196f8461",
+  "wslDistro": "Ubuntu",
+  "wslHome": "/home/simon"
+}

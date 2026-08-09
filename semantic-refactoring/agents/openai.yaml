@@ -1,0 +1,4 @@
+interface:
+  display_name: "semantic-refactoring"
+  short_description: "Preserve behavior during code refactors"
+  default_prompt: "Use $refactoring while making this code change."

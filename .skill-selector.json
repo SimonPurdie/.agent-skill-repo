@@ -3,7 +3,8 @@
   "selectedEntries": [
     "pack:matt-engineering",
     "pack:matt-productivity",
-    "skill:hbox-integration"
+    "skill:hbox-integration",
+    "skill:semantic-refactoring"
   ],
   "resolvedSkills": [
     {
@@ -82,6 +83,11 @@
       "destinationName": "resolving-merge-conflicts"
     },
     {
+      "entryId": "skill:semantic-refactoring",
+      "sourceRelativePath": "semantic-refactoring",
+      "destinationName": "semantic-refactoring"
+    },
+    {
       "entryId": "pack:matt-engineering",
       "sourceRelativePath": "matt-engineering\\setup-matt-pocock-skills",
       "destinationName": "setup-matt-pocock-skills"
@@ -137,7 +143,7 @@
       "destinationName": "writing-for-agents"
     }
   ],
-  "syncId": "5060b593-24f3-4d25-a423-32d6196f8461",
+  "syncId": "b9b6a358-d01f-4387-bf67-f8e68352f833",
   "wslDistro": "Ubuntu",
   "wslHome": "/home/simon"
 }

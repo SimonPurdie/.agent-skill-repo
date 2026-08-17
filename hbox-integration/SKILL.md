@@ -1,6 +1,7 @@
 ---
 name: hbox-integration
-description: Create, review, repair, verify, and register portable HBOX project integrations. Use when an agent works with a project .hbox folder, Entry metadata, tags, actions, Sessions, custom SVG icons, effective HBOX metadata, or local HBOX registration.
+description: Create, review, repair, verify, and register portable HBOX project integrations.
+disable-model-invocation: true
 ---
 
 # HBOX integration

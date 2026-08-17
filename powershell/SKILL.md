@@ -1,6 +1,6 @@
 ---
 name: powershell
-description: Write reliable PowerShell commands and scripts with guardrails for common agent failure modes (quoting, paths, object pipelines, native command invocation, exit semantics, and module/version drift). Use when the user asks for PowerShell snippets, .ps1 scripts, debugging, refactoring, or linting with PSScriptAnalyzer.
+description: Write reliable PowerShell commands and scripts with guardrails for common agent failure modes.
 ---
 
 # PowerShell Commands and Scripts
@@ -15,7 +15,6 @@ Use this workflow when authoring commands, one-liners, or script files.
 2. Prefer cmdlets and object pipelines over shell-style text pipelines.
 3. Use named parameters and splatting for anything non-trivial.
 4. Validate command/module availability before relying on it.
-5. Lint with PSScriptAnalyzer before finalizing. If PSScriptAnalyzer is not available, pause and explicitly ask the user whether to install it or waive linting.
 
 ## Common Failure Modes Checklist
 
@@ -87,21 +86,3 @@ $ErrorActionPreference = 'Stop'
 ```
 
 Pragmatic default: keep both off, and use targeted `-ErrorAction Stop` on critical operations.
-
-## PSScriptAnalyzer Workflow
-
-Source of truth for analyzer behavior and rules is the GitHub repository:
-
-- https://github.com/PowerShell/PSScriptAnalyzer
-- https://github.com/PowerShell/PSScriptAnalyzer/blob/master/docs/Cmdlets/Invoke-ScriptAnalyzer.md
-- https://github.com/PowerShell/PSScriptAnalyzer/blob/master/docs/Cmdlets/Get-ScriptAnalyzerRule.md
-- https://github.com/PowerShell/PSScriptAnalyzer/blob/master/docs/Cmdlets/Invoke-Formatter.md
-- https://github.com/PowerShell/PSScriptAnalyzer/blob/master/docs/Rules/README.md
-
-## Delivery Standard
-
-Before finalizing PowerShell output:
-
-1. Re-check the failure-mode checklist.
-2. Ensure paths, quoting, and native-exit handling are explicit.
-3. Run analyzer and resolve or explicitly justify suppressions.

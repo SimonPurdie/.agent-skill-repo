@@ -1,0 +1,6 @@
+interface:
+  display_name: "Logic Puzzle Toolbox"
+  short_description: "Design and evaluation lenses for deterministic logic puzzles"
+
+policy:
+  allow_implicit_invocation: false

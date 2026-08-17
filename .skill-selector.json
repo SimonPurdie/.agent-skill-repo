@@ -4,6 +4,8 @@
     "pack:matt-engineering",
     "pack:matt-productivity",
     "skill:hbox-integration",
+    "skill:logic-puzzle-toolbox",
+    "skill:powershell",
     "skill:semantic-refactoring"
   ],
   "resolvedSkills": [
@@ -66,6 +68,16 @@
       "entryId": "pack:matt-engineering",
       "sourceRelativePath": "matt-engineering\\improve-codebase-architecture",
       "destinationName": "improve-codebase-architecture"
+    },
+    {
+      "entryId": "skill:logic-puzzle-toolbox",
+      "sourceRelativePath": "logic-puzzle-toolbox",
+      "destinationName": "logic-puzzle-toolbox"
+    },
+    {
+      "entryId": "skill:powershell",
+      "sourceRelativePath": "powershell",
+      "destinationName": "powershell"
     },
     {
       "entryId": "pack:matt-engineering",
@@ -143,7 +155,7 @@
       "destinationName": "writing-for-agents"
     }
   ],
-  "syncId": "b9b6a358-d01f-4387-bf67-f8e68352f833",
+  "syncId": "eb1ae42a-0d03-457c-af85-b943348cd51f",
   "wslDistro": "Ubuntu",
   "wslHome": "/home/simon"
 }
